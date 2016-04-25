@@ -84,6 +84,9 @@ INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, clas
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 710, 15,171, NULL, 'Bro-IDS: DPD::SIP::Binpac exception', 1, 3);
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 711, 15,171, NULL, 'Bro-IDS: DPD::RADIUS::Binpac exception', 1, 3);
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 712, 15,171, NULL, 'Bro-IDS: DPD::IRC::Invalid reply number', 1, 3);
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 713, 15,171, NULL, 'Bro-IDS: DPD::SSL::Unsupported server SSL version', 1, 3);
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 714, 15,171, NULL, 'Bro-IDS: DPD::TEREDO::Bad Teredo encapsulation', 1, 3);
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 715, 15,171, NULL, 'Bro-IDS: DPD::DNS::DNS Conn count too large', 1, 3);
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 799, 15,171, NULL, 'Bro-IDS: DPD::Generic', 1, 3);
 
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, name, priority, reliability) VALUES (1568, 801, 15,171, NULL, 'Bro-IDS: FTP::APPE', 1, 1);
